@@ -1,0 +1,250 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{
+	margin: 0;
+	padding: 0;
+}
+
+h3{ 
+    color: #999;
+    font-size: 1em;
+}
+
+h4{
+	color:;
+}
+
+/*header部分的样式*/
+header{
+	background-color: rgb(51,51,51);
+}
+
+.logo{
+	float: left;
+	margin: 10px 40px;	
+}
+
+nav{
+	float:right;
+	margin: 20px;
+}
+
+nav ul li{
+	float: left;
+	width:70px;
+	margin-left: 15px;
+	font-size: 12px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.last{
+	color: gray;
+}
+
+/*main部分的样式*/
+main, aside{
+	background-color: rgb(222,222,222);
+}
+
+main{
+	padding-top: 20px;
+}
+
+section{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid rgb(202,202,202);
+	background-color: white;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	padding: 40px 20px 20px 20px;
+}
+
+main section{
+	margin-bottom: 20px;
+}
+
+main section:last-child{
+	margin-bottom: 0;
+}
+
+main h3{
+	margin-top: 20px;
+}
+
+.article_info{
+	color: #9eadb6;
+	font-size: 0.8em;
+	margin-top: 15px;
+}
+
+article{
+	margin-top: 15px;
+}
+
+article>:first-child{
+	text-indent: 2em;
+}
+
+article>:last-child{
+	padding-bottom: 20px;
+}
+
+article p{
+	line-height: 1.5;
+}
+
+section img{
+	display: block;
+	width:300px;
+	height:240px;
+	margin-bottom: 15px;
+}
+
+section ul{
+	line-height: 2;
+	margin-left: 15px;
+	list-style: none;
+}
+
+figure{
+	border: 1px solid rgb(202,202,202);
+	width: 120px;
+	height: 125px;
+	margin-bottom: 15px;
+}
+
+section figure figcaption{
+	width: 60px;
+	margin: 10px auto;
+	font-size: 11px;
+}
+
+section figure img{
+	width:100px;
+	height: 80px;
+	margin: 10px auto;
+}
+
+section ol{
+	margin: 20px 25px;
+	line-height: 1.5;
+}
+
+table, thead, tbody, tfoot, th, tr, td{
+	border: 1px solid rgb(202,202,202);
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	font-size: 11px;
+}
+
+table tr{
+	line-height: 2;
+}
+
+table td, th{
+	padding-left: 5px;
+}
+
+table thead{
+	color: white;
+	font-weight: bold;
+	background-color: rgb(51,51,51);
+}
+
+table tfoot{
+	background-color: rgb(204,204,204);
+	font-weight: bold;
+}
+
+/*aside部分的样式*/
+aside{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.side_title{
+	position: relative;
+	height: 40px;
+	padding-left: 15px;
+	border-left: 3px solid rgb(202,202,202);
+}
+
+.side_title h3{
+	color: black;
+	line-height: 40px;
+}
+
+aside section{
+	padding: 20px;
+}
+
+aside form{
+	font-size: 11px;
+}
+
+aside form label{
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
+
+aside form input{
+	border: 1px solid rgb(202,202,202);
+	line-height: 20px;
+}
+
+aside textarea{
+	width: 760px;
+    height: 100px;
+}
+
+aside button{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	background-color: rgb(51, 85, 208);
+	margin-top: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+aside form div{
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+/*footer部分的样式*/
+footer{
+	height: 70px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer div{
+	padding-top: 20px;
+}
+
+.clearfix:after{
+	clear: both;
+	content: ".";
+	display:block;
+	visibility: hidden;
+	height: 0;
+}
+
+.display_block{
+	display: block;
+}
