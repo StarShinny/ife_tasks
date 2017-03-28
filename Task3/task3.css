@@ -1,0 +1,70 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: white;
+	font-size: 15px;
+}
+
+#container {
+	margin: 20px;
+	background-color: #eee;
+	padding: 20px;
+}
+
+#container, .team_block, .introduction_block, .personal_block, .logo {
+	border: 1px solid #999;
+}
+
+.team_block {
+	float: left;
+	width: 200px;
+}
+
+.personal_block {
+	float: right;
+	width: 120px;
+}
+
+.introduction_block {
+	padding: 20px;
+	margin-left: 240px;
+	margin-right: 160px;
+}
+
+.logo {
+	background-color: #eee;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+.logo span {
+	display: block;
+	position: relative;
+	top: 50%;
+	margin-top: -20px;
+	height: 40px;
+	text-align: center;
+}
+
+.team_block .logo {
+	float: left;
+}
+
+.team_block .name {
+	float: right;
+	width: 60px;
+	margin-right: 18px;
+	margin-top: 20px;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
